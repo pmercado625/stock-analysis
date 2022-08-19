@@ -42,10 +42,12 @@ Below is a code excerpt which shows the method used to iterate through each tick
             'increment the ticker to record for the next stock ticker
             tickerIndex = tickerIndex + 1  
         
- By having an index to reference an array, we can keep track of which ticker we're recording data for without having to iterate through the data set each time.
+ By having an index to reference an array, we can keep track of which ticker we're recording data for without having to iterate through the data set each time. In order to start another ticker, we would simply increase our tickerIndex variable by one to start pulling data for the next ticker/stock.
 
 
 
 
 
 ## Summary
+
+In this evaluation, we examined the possible effects of refactoring code. On one hand, there can be exponential increase in efficiency (in this case, a magnitude's difference in time needed to complete the same task). Additionally, it shows that there are almost always multiple solutions to the same problem, with varying degrees of efficacy. However, not every solution is as easy to understand and therefore can create confusion when devising a solution that other potential coders may not understand or be able to use. In this specific project, a coder/user may be more comfortable with for loops but not be anywhere near as experienced with different concepts such as arrays and indexing.
